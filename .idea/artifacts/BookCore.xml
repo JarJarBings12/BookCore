@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BookCore">
+    <output-path>$PROJECT_DIR$/../BookCoreCompiled/BookCore</output-path>
+    <root id="archive" name="BookCore.jar">
+      <element id="module-output" name="BookCore" />
+    </root>
+  </artifact>
+</component>

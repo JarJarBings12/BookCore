@@ -1,0 +1,11 @@
+kernel:
+  listeners:
+  # If you disable one of this Listener BookCore no longer call the BookCoreSubscribeEvent for this Event!
+    enable:
+    - WindowClose
+    - WindowOpen
+    - WindowClick
+    - WindowInteract
+
+#Don't edit this !
+version: cl-blue-dust-r1.0.0.0

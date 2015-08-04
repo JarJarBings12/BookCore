@@ -1,0 +1,50 @@
+# Pleas verify that this settings are okay!
+# If they are okay, replace 'false' with 'true'
+enable: false
+
+bookcore:
+  features:
+    use_database_backup: true
+    use_window_backup: true
+    use_window_transfer: true
+    use_window_compressed_transfer: true
+
+  storage:
+    paths:
+# If you modify this, you must enter the absolute path.
+# For the plugins folder of Bukkit, you can use the variable %plugins%.
+# And for the default path you can use %default%.
+# The default paths are:
+# dababase -> %plugins%/BookCore/SYSTEM/winDB.db
+# backups -> %plugins%/BookCore/SYSTEM/BACKUP/
+# transfer -> %plugins%/BookCore/transfer
+      database: $default$
+      backups: $default$
+      transfer: $default$
+    database:
+      backup:
+        create:
+          allow: true
+        load:
+          allow: true
+    window:
+      transfer:
+        uncompressed:
+          export:
+            allow: true
+          import:
+            allow: true
+        compressed:
+          export:
+            allow: true
+          import:
+            allow: true
+      backup:
+        create:
+          allow: true
+        load:
+          allow: true
+
+#Don't edit this !
+version: cl-blue-dust-r1.0.0.0
+#name Core line blue dust

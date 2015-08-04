@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TreeStructureMap">
+    <output-path>$PROJECT_DIR$/../BookCoreCompiled/TSM</output-path>
+    <root id="archive" name="TreeStructureMap.jar">
+      <element id="module-output" name="TreeStructureMap" />
+    </root>
+  </artifact>
+</component>
